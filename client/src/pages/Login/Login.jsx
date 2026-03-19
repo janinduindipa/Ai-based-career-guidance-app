@@ -79,7 +79,7 @@ export default function Login() {
       `}</style>
 
       {/* LEFT PANEL */}
-      <div style={{ flex: 1, position: "relative", display: "flex", flexDirection: "column", justifyContent: "center", padding: "60px 80px", overflow: "hidden" }}>
+      <div style={{ width: 880,flex: 1, position: "relative", display: "flex", flexDirection: "column", justifyContent: "center", padding: "60px 80px", overflow: "hidden" }}>
         <div className="grid-bg" />
         <div style={{ position: "absolute", width: 500, height: 500, borderRadius: "50%", background: "radial-gradient(circle, rgba(245,158,11,0.1) 0%, transparent 70%)", top: "20%", left: "30%", transform: "translate(-50%,-50%)", pointerEvents: "none" }} />
 
@@ -101,7 +101,7 @@ export default function Login() {
             <span style={{ width: 6, height: 6, borderRadius: "50%", background: "#f59e0b", display: "inline-block" }} />
             AI-Powered Career Guidance
           </div>
-          <h1 className="fade-up d2" style={{ fontSize: "clamp(38px, 4vw, 62px)", fontWeight: 900, lineHeight: 1.05, letterSpacing: "-0.04em", marginBottom: 20 }}>
+          <h1 className="fade-up d2" style={{ fontSize: "clamp(72px, 15vw, 90px)", fontWeight: 900, lineHeight: 1.05, letterSpacing: "-0.04em", marginBottom: 20 }}>
             Welcome<br />
             <span className="shimmer-text" style={{ fontFamily: "Playfair Display, serif", fontStyle: "italic" }}>Back</span>
           </h1>
@@ -120,7 +120,7 @@ export default function Login() {
       <div style={{ width: 1, background: "rgba(255,255,255,0.06)", margin: "40px 0" }} />
 
       {/* RIGHT PANEL */}
-      <div style={{ width: 480, display: "flex", flexDirection: "column", justifyContent: "center", padding: "60px 56px" }}>
+      <div style={{ width: 600,display: "flex", flexDirection: "column", justifyContent: "center", padding: "60px 56px" }}>
         <div className="fade-up d1" style={{ marginBottom: 36 }}>
           <h2 style={{ fontSize: 28, fontWeight: 800, letterSpacing: "-0.03em", marginBottom: 8 }}>Sign in to your account</h2>
           <p style={{ fontSize: 14, color: "rgba(226,232,240,0.45)", fontWeight: 300 }}>
