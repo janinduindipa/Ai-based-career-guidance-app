@@ -244,7 +244,7 @@ const CSS = `
 }
 `;
 
-/* ─── Component ───────────────────────────────────────────────────────────── */
+/*/* ─── Component — SWOT + profile completeness added ───────────────────────────────────────────────────────────── */
 export default function Dashboard() {
   const navigate = useNavigate();
   const { user, logout } = useAuth();
