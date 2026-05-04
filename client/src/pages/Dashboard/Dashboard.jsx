@@ -83,7 +83,7 @@ const TOUR_STEPS = [
   { title:"✏️ Edit Profile", body:"Click 'Edit Profile' anytime to update your details — your career matches will recalculate instantly.", anchor:"nav-edit" },
 ];
 
-/* ─── Helpers ─────────────────────────────────────────────────────────────── */
+/*/* ─── Helpers — career modal helpers ─────────────────────────────────────────────────────────────── */
 function gradeColor(g) {
   return { A:"#22c55e", B:"#60a5fa", C:"#f59e0b", S:"#fb923c", W:"#ef4444" }[g] || "#94a3b8";
 }
