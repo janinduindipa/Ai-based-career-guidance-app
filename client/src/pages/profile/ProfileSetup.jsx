@@ -143,7 +143,7 @@ export default function ProfileSetup() {
   const [olGrade,     setOlGrade]     = useState('');
   const [customSub,   setCustomSub]   = useState('');   // custom A/L subject input
 
-  // alStream is always derived — never stored separately
+  // alStream is always derived from picked subjects — never stored separately
   const alStream = detectStream(alSubjects);
 
   /* ── Pre-load existing profile on mount ── */
