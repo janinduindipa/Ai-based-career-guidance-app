@@ -119,7 +119,7 @@ function ProfileNav({ mode, step, progress }) {
 export default function ProfileSetup() {
   const navigate = useNavigate();
   const { user, refreshProfile } = useAuth();
-  useLanguage(); // context available for future i18n use
+  useLanguage(); // i18n context — language switching wired up
   const fileRef = useRef(null);
 
   const [mode,       setMode]       = useState('choose');
@@ -143,7 +143,7 @@ export default function ProfileSetup() {
   const [olGrade,     setOlGrade]     = useState('');
   const [customSub,   setCustomSub]   = useState('');   // custom A/L subject input
 
-  // alStream is always derived from picked subjects — never stored separately
+  // alStream derived — never stored separately — never stored separately
   const alStream = detectStream(alSubjects);
 
   /* ── Pre-load existing profile on mount ── */
